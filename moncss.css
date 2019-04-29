@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color:#F8F8FF;}
+ul li {list-style:none;}
+
+#titre { 
+height:60px; background-color:rgba(0,0,0,1); color:white; font-size:26px; 
+position: fixed; width:100%;}
+#ligne {height:2px; background-color:orange; padding-top:62px;}
+.montitre {float:left; padding-top:20px; font-size:25px; margin-left:100px; margin-right:50px; text-align:center;}
+.liens {padding-top:20px; margin-left:250px; }
+
+.liens ul {
+margin:0px; 
+}
+.liens ul li {
+display:inline-block;
+font-size:14px; border-left: solid 1px #ffa07f;
+}
+.liens ul li a{color:white; text-decoration:none; font-size:14px; margin-left:10px;}
+.liens ul li a : hover{color:#999; text-decoration:underline; font-size:14px; margin-left:10px;}
+
+.liens input { height:25px; width: 200px; background-color:#D7D8D5; margin-left:15px; border-radius:5px;
+font-size:14px;
+}
+
+#Formulaire ul {
+margin:0px;
+padding:0px 0px 0px 30px;
+}
+#Formulaire ul li {
+list-style:none;
+font-size:14px;
+}
+ 
+#Formulaire { background-color:white; height:350px; width:350px; border:20px; border-radius: 10px;
+font-family:VerdanaHelvetica, sans-serif; font-weight:bold; font-size:14px; padding-top:25px; margin-bottom:25px;margin-top:25px;
+position:relative; margin-left: 90px; 
+}
+
+#Formulaire input { height:35px; border-radius: 5px; margin-bottom:10px; margin-top:5px; 
+font-size:14; width:300px; border-bottom: solid 1px #ffa07f; }
+#Formulaire select { height:35px; border-radius: 5px; margin-bottom:10px; margin-top:5px; 
+font-size:14; width:300px; border-bottom: solid 1px #ffa07f; }
+
+#Save_ { background-color:green; height:40px; width:250px; border-radius: 5px; margin-left:50px;}
+#annuler_ { background-color:red; height:40px; width:250px; border-radius: 5px;}
+
+#gras_Titre { font-size:30px;}
+
+.button_ {background-color:white; height:50px; width:600px; border:5px; border-radius: 5px;position:relative; padding-top:10px;}
+
+#corp { width:600px; display: inline-block; 
+position: relative ; 
+margin-left: 300px; 
+margin-right: auto;}
+
+#pied{height:60px; background-color:rgba(0,0,0,1); color:white; position: fixed; display:block; width:100%;}
+
+#entete{
+background-color:orange; font-size:25px; margin-left:30px;
+}
+table { font-size:16px; border:0px; width:500px; margin-left:400px;}
+table tr { width : 500px;}
+table td { width : 50px;}
+#contenaire { height:600px;}
